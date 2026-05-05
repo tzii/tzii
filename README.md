@@ -76,7 +76,7 @@ Previously, I worked as an **AI Specialist**, dealing with LLM solutions, on-pre
 ## Languages
 
 - **Italian**: native
-- **English**: professional / working proficiency
+- **English**: professional / working proficiency (C1 / C2 IELTS)
 - **French**: decent enough to survive
 
 ---
