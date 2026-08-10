@@ -6,7 +6,7 @@
 
 **AI Software Engineer** focused on document intelligence, Python backends, and dependable AI systems.
 
-I build software that turns messy real-world inputs into structured, testable workflows. I completed a **Higher Technical Diploma in AI & Data (EQF Level 5)** with a final grade of **107/110**, and developed `italianRAG` during a three-month internship at InfoCamere.
+I build software that turns messy real-world inputs into structured, testable workflows. I completed a **Higher Technical Diploma in AI & Data (EQF Level 5)** with a final grade of **107/110**.
 
 ## Selected work
 
