@@ -1,30 +1,48 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Bunny banner" width="100%" />
+  <img src="./assets/banner.png" alt="Simone - tzii: practical AI, data and software" width="100%" />
 </p>
 
 # Simone Perini
 
-**Agentic AI / Software Engineer** focused on document intelligence, RAG, Python backends, and dependable AI systems.
+AI and software engineer based in Italy. I hold a Higher Technical Diploma in AI & Data (ITS, EQF level 5, 107/110) and did a three-month internship at InfoCamere building document AI for Italian corporate filings.
 
-I build software that turns messy real-world inputs into structured, testable workflows. I completed a **Higher Technical Diploma in AI & Data (EQF Level 5)** with a final grade of **107/110**. My work spans LLM/RAG systems, agentic workflows with LangChain/LangGraph, computer vision and reinforcement learning, plus production-minded software engineering.
+I mostly write Python. I also maintain an Android app in Kotlin and a KeePass plugin in C#.
 
-## Selected work
+**Portfolio:** [tzii.github.io](https://tzii.github.io/)
+<!-- Add when ready: · [LinkedIn](https://www.linkedin.com/in/...) · [CV (PDF)](...) · email -->
 
-- **[italianRAG — engineering case study](./ITALIANRAG_CASE_STUDY.md)**  
-  Evidence-first document intelligence for Italian corporate PDFs, combining typed extraction, Qdrant retrieval, cross-document analysis, and reproducible evaluation. Built during my AI & Data internship at InfoCamere.
+## Projects
 
-- **[Pefforza 4](https://github.com/tzii/Pefforza_4)**  
-  Connect Four AI system combining physical-board computer vision, PPO reinforcement learning, bitboard alpha-beta search, an exact solver, automated evaluation, and CI.
+### [italianRAG](./ITALIANRAG_CASE_STUDY.md)
 
-- **[KeeFetch](https://github.com/tzii/KeeFetch)**  
-  A .NET plugin for KeePass with concurrent favicon retrieval, ranked provider selection, privacy controls, automated tests, and packaged releases.
+*internship project, code is private*
 
-- **[ThystTV](https://github.com/tzii/ThystTV)**  
-  Android/Kotlin media-client work focused on player UX, floating chat, local statistics, release engineering, and upstream maintenance.
+Extracts typed fields (share capital, governance, multi-year financials) from financial statements, statutes and registry reports, with page-level citations. Questions outside those fields go to Qdrant retrieval. FastAPI service, SQLite fact store, and a 116-case regression benchmark.
 
-- **[ScrapingStore](https://github.com/tzii/ScrapingStore)**  
-  Python data pipeline for scraping, cleaning, storing, and analysing web data.
+### [Pefforza 4](https://github.com/tzii/Pefforza_4)
 
-## Core stack
+*Python · [play in the browser](https://tzii.github.io/Pefforza_4/)*
 
-`Python` · `FastAPI` · `Pydantic` · `SQL` · `Qdrant` · `RAG` · `LangChain` · `LangGraph` · `LLM/VLM evaluation` · `pytest` · `Docker` · `GitHub Actions` · `C# / .NET` · `Kotlin / Android`
+Connect Four with five opponents: random, heuristic, depth-8 bitboard alpha-beta, an exact solver and a PPO agent trained with Stable-Baselines3. A webcam can read a physical board and draw the suggested move on the live feed.
+
+### [ThystTV](https://github.com/tzii/ThystTV)
+
+*Kotlin, Android*
+
+Twitch client forked from [Xtra](https://github.com/crackededed/Xtra). I added floating chat, gesture controls, live rewind, foldable and tablet layouts, local viewing stats and an in-app updater, and I publish signed APK releases.
+
+### [KeeFetch](https://github.com/tzii/KeeFetch)
+
+*C#, .NET Framework*
+
+KeePass plugin that downloads website icons for password entries. It has seven icon providers and four presets, chosen by benchmarking 19 provider configurations. Covered by unit tests and built in CI.
+
+### [ScrapingStore](https://github.com/tzii/ScrapingStore)
+
+*Python*
+
+Scrapes a 3,000-product sandbox store with Playwright, keeps every run in SQLite and compares runs. It generates static dashboards and CSV exports for Power BI.
+
+## Tools I use
+
+Python, FastAPI, Pydantic, pytest, SQL/SQLite, Qdrant, LangChain/LangGraph, Stable-Baselines3, OpenCV, Docker, GitHub Actions, Kotlin, C#
