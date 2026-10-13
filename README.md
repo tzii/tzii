@@ -8,8 +8,8 @@ AI and software engineer based in Italy. I hold a Higher Technical Diploma in AI
 
 I mostly write Python. I also maintain an Android app in Kotlin and a KeePass plugin in C#.
 
-**Portfolio:** [tzii.github.io](https://tzii.github.io/)
-<!-- Add when ready: · [LinkedIn](https://www.linkedin.com/in/...) · [CV (PDF)](...) · email -->
+[Portfolio](https://tzii.github.io/) · [LinkedIn](https://www.linkedin.com/in/simone-perini-964a54157/)
+<!-- Consider adding: · [CV (PDF)](...) · a contact email -->
 
 ## Projects
 
