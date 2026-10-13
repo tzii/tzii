@@ -1,6 +1,6 @@
-# italianRAG — Evidence-First Document Intelligence
+# italianRAG: document AI for Italian corporate filings
 
-> A public, recruiter-readable engineering case study. The implementation repository is private because the project was developed during an internship; this page documents the problem, architecture, evaluation approach, technical decisions, and limitations without publishing private material.
+> I built this during an internship, so the code is private. This page covers the problem, the architecture, how it was evaluated and what it can't do, without any internship material.
 
 ## Overview
 
@@ -149,16 +149,3 @@ The canonical benchmark isolates routing, extraction, and citation behaviour fro
 - Deterministic coverage is document- and field-specific.
 - Benchmark results apply only to the documented dataset and scope.
 - Human review remains necessary when evidence is weak, conflicting, or incomplete.
-
-## What this project demonstrates
-
-- Designing AI systems around traceability instead of presentation alone.
-- Combining deterministic software with probabilistic retrieval.
-- Treating evaluation artifacts as part of the product.
-- Building typed APIs and data contracts for document workflows.
-- Communicating scope and limitations honestly around strong metrics.
-
----
-
-**Author:** [Simone Perini](https://github.com/tzii)  
-**Role focus:** AI software engineering · Python backends · document intelligence
